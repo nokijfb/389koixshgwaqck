@@ -5,10 +5,10 @@ jQuery(document).ready(function($) {
 
     var commands = {
         help: "shows help",
-        less: "show in a vim output method \n            (It looks just like Vim, but it's not the real one.)\n            just press 'q' after END to close it, don't use ':q!' or even \n            ':wq' to close it. it's not a real vim bro, wakeup! XD",
+        less: "show in a vim output method \n            (It looks just like Vim, but it's not the real one.)\n            just press 'q' after END to close it, don't use ':q!' or even \n            ':wq' to close it. it's not a real vim.",
         whois: "list of my short bio",
         social: "list social media",
-        work: "list my work-experiences",
+        work: "list of my work-experiences",
         education: "list of my educations",
         skills: "list of my IT core skills",
         softskills: "list of my soft skills",
@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
             source: "shows details about template powering this website",
         {{ end }}
         {{ if .Site.Params.version }}
-            version: "Current version (not important things, just a gimmick)",
+            version: "Current version (just a gimmick)",
         {{ end }}
         {{ if .Site.Params.exitLocation }}
             exit: "exit the terminal and goto google.com",
@@ -229,16 +229,16 @@ jQuery(document).ready(function($) {
          {{ end }}
     ];
 
-    var source =  ' _______ _______ ______    \n' +
-                  '|      |       |       |   \n' +
-                  '|      |       |       |   \n' +
-                  '|______|_______|_______|   \n' +
-                  '|      |       |       |   \n' +
-                  '|      |       |       |   \n' +
-                  '|______|_______|_______|   \n' +
-                  '|      |       |       |   \n' +
-                  '|      |       |       |   \n' +
-                  '|______|_______|_______|   \n' +
+    var source =  '_______ _______ _______   \n' +
+                  '|░░░░░░|       |░░░░░░░|   \n' +
+                  '|░░░░░░|       |░░░░░░░|   \n' +
+                  '|░░░░░░|_______|░░░░░░░|   \n' +
+                  '|      |░░░░░░░|       |   \n' +
+                  '|      |░░░░░░░|       |   \n' +
+                  '|______|░░░░░░░|_______|   \n' +
+                  '|░░░░░░|       |░░░░░░░|   \n' +
+                  '|░░░░░░|       |░░░░░░░|   \n' +
+                  '|░░░░░░|_______|░░░░░░░|   \n' +
                   '                           \n' +
                   '[[;red;]&copy; 2024 Gillar Ajie Prasatya. All rights reserved.]\n' +
                   '[[;grey;]Powered by Hugo\n';

@@ -32,7 +32,7 @@ params:
   # promptColor: grey
   # promptSimbols: ":~$"
   # promptSimbolsColor: grey
-  startxLocation: https://glog.pages.dev
+  startxLocation: https://glog.pages.dev/me
   # useLess: true
   exitLocation: 'https://google.com'
   source: true
@@ -45,12 +45,12 @@ params:
 
   
     ░░ Welcome to Gillar Ajie Prasatya
-    ░░ Terminal-site 
+    ░░ Terminal-Bio-site 
 
     |> Type 'help' to see all of available commands
     |> Type 'projects' to see my current projects list
-    |> Type 'startx' to see my blog (an old-to-latest posts)
-    ╚> or you can just click here: https://glog.pages.dev"
+    |> Type 'startx' to see my GUI bio & blog
+    ╚> or you can just click here: https://glog.pages.dev/me
     |> Type 'clear' to clear the terminal screen.
     |> Type 'exit' to exit the terminal and back to google.com
 
@@ -83,7 +83,7 @@ params:
     # settings:
     #   useLess: true
     details:
-    - jobTitle: "\nSelf-Employed | BE Specialist"
+    - jobTitle: "\nSelf-Employed"
       color: Cyan
       company: 'Kuresains' 
       location: WFH
@@ -106,12 +106,12 @@ params:
 
   education:
     details:
-    - courseName: "\nInformal Education at Dicoding course"
+    - courseName: "\nInformal Education at Dicoding"
       color: lightblue
       date: 2024 (Graduated)
       description: "Frontend Development course\n"
 
-    - courseName: "\nInformal Education at Dicoding course"
+    - courseName: "\nInformal Education at Dicoding"
       color: lightblue
       date: 2024 (Onprogress)
       description: "Backend Development course\n"
@@ -146,7 +146,7 @@ params:
       # description: Operating excel, powerpoint, word in MS Office.
 
     - name: "\nPostgreSQL"
-      color: darkblue
+      color: purple
       percentage: 90
       # description: Operating excel, powerpoint, word in MS Office.
 
@@ -179,7 +179,7 @@ params:
       description: "Native speaker."
     
     - name: "English"
-      color: blue
+      color: azure
       percentage: 70
       description: "Passive / not fluent in English."
 
