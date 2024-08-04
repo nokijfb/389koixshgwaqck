@@ -172,13 +172,14 @@ params:
       # useLess: true
     details:
     - name: "\nIndonesian"
+      color: red
       percentage: 100
-      description: "Natively."
+      description: "Native speaker."
     
     - name: "English"
-      color: Blue
-      percentage: 75
-      description: "Pasive."
+      color: blue
+      percentage: 70
+      description: "Passive / not fluent in English."
 
 
   projects:
