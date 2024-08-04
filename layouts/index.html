@@ -78,6 +78,9 @@ jQuery(document).ready(function($) {
         {{ if .homelink }}
         '[[b;grey;]Homepage:]\t\t{{ .homelink }}\n' +
         {{ end }}
+        {{ if .homelink }}
+        '[[b;grey;]DownloadCV:]\t\t{{ .cv }}\n' +
+        {{ end }}
         {{ if .description }}
         '{{ .description }}' +
         {{ end }}
