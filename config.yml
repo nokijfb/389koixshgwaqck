@@ -1,0 +1,236 @@
+baseURL: http:""
+languageCode: en-us
+title: xgilarb | Bash
+theme: terminalcv
+
+params:
+  version: '2.0.0'
+  description: "My terminal site"
+  prompt:
+    core:
+      text: "visitor"
+      color: 'cyan'
+      before: '['
+      beforeColor: 'red'
+      after: '\]'
+      afterColor: 'red'
+      # separator: '-'
+    separator:
+      text: "->"
+      # color: 
+    path: 
+      before: '['
+      beforeColor: 'purple'
+      text: '~/gillar'
+      color: 'blue'
+      after: '\]'
+      afterColor: 'purple'
+    extra:
+      text: ": "
+      color: 'orange'
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  startxLocation: https://xgilarb.pages.dev
+  # useLess: true
+  exitLocation: 'https://google.com'
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: | 
+
+
+    ‎ ▀▄▀ █▀▀ █ █░░ ▄▀█ █▀█ █▄▄
+     █░█ █▄█ █ █▄▄ █▀█ █▀▄ █▄█
+
+  
+    ░░ Welcome to Gillar Ajie Prasatya
+    ░░ Terminal-site 
+
+    |> Type 'help' to see all of available commands
+    |> Type 'startx' to see my blog (an old-to-latest posts)
+    ╚> or you can just click here: https://xgilarb.pages.dev"
+    |> Type 'clear' to clear the terminal screen.
+    |> Type 'exit' to exit the terminal and back to google.com
+
+
+  whois: 
+    # settings:
+    #   useLess: true
+    details:
+      name: "Gillar Ajie Prasatya"
+      profession: "Self-Employed WebDev"
+      location: "West Bandung, West Java, Indonesia"
+      email: "xgilarb@gmail.com"
+      homelink: "https://gillar.pages.dev"
+      # description: Website and portfolio of Gillar Ajie Prasatya using terminal alike theme.
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+    - name: "\nGithub"
+      url: "https://github.com/xgilarb"
+    - name: "X"
+      url: "https://x.com/xgilarb"
+    - name: "Youtube"
+      url: "https://youtube.com/@kuresains-id\n"
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+    - jobTitle: "\nSelf-Employed WebDev"
+      color: Cyan
+      company: 'Kuresains' 
+      location: WFH
+      date: 2023 - Present
+      description: "Build & Developing Website / Webapps\n"
+
+    - jobTitle: "\nGalaxy Consultant"
+      color: blue
+      company: 'PT. Accentuates'
+      location: DKI Jakarta
+      date: 2021  - 2023
+      description: "Handling Inbound & Outbound calls,\nReporting issues & incident, Troubleshooting, Technical Care Support.\n"
+
+    - jobTitle: "\nCS Consultant Staff"
+      color: Red
+      company: 'PT. Intrias Mandiri Sejati'
+      location: West Java
+      date: 2013 - 2021
+      description: "Handling Face to Face customer complaint,\nReporting issues & incident, Troubleshooting, Technical Care Support.\n"
+
+  education:
+    details:
+    - courseName: "\nInformal Education at Dicoding course"
+      color: lightblue
+      date: 2024 (Graduated)
+      description: "Frontend Development course\n"
+
+    - courseName: "\nInformal Education at Dicoding course"
+      color: lightblue
+      date: 2024 (Onprogress)
+      description: "Backend Development course\n"
+
+    - courseName: "\nFormal Education at SMK Negeri 12 Bandung"
+      color: red
+      date: 2011 (Graduated)
+      description: "Aviation (Body construction of aircraft)\n"
+
+  skills:
+    # settings:
+      # useLess: true
+    details:
+    - name: "\nHTML"
+      color: Orange
+      percentage: 90
+      # Description: multitasking in many ways.
+
+    - name: "\nCSS"
+      color: blue
+      percentage: 90
+      # description: communication effectively.
+
+    - name: "\nJavascript"
+      color: yellow
+      percentage: 90
+      # description: Operating excel, powerpoint, word in MS Office.
+
+    - name: "\nGo"
+      color: cyan
+      percentage: 90
+      # description: Operating excel, powerpoint, word in MS Office.
+
+    - name: "\nPostgreSQL"
+      color: darkblue
+      percentage: 90
+      # description: Operating excel, powerpoint, word in MS Office.
+
+  softskills:
+    # settings:
+      # useLess: true
+    details:
+    - name: "\nMultitasking"
+      color: green
+      percentage: 90
+      description: "Skilled in handling multiple tasks simultaneously\nwith high efficiency."
+
+    - name: "\nCommunication"
+      color: red
+      percentage: 98
+      description: "Highly skilled in effective communication."
+
+    - name: "\nMS Office"
+      color: blue
+      percentage: 90
+      description: "Proficient in using Excel, PowerPoint, and Word in MS Office."
+
+  languages:
+    # settings:
+      # useLess: true
+    details:
+    - name: "\nIndonesian"
+      percentage: 100
+      description: "Natively."
+    
+    - name: "English"
+      color: Blue
+      percentage: 75
+      description: "Pasive."
+
+
+  projects:
+    #  settings:
+    #    useLess: true
+    # details:
+    # - title: Project Red
+    #   color: red
+    #   date: since 2019
+    #   link: https://example.com
+    #   description: Describing red stuff
+
+    # - title: Project Blue
+    #   color: blue
+    #   date: since 2016
+    #   link: https://example.com/blue
+    #   #description: nothing to describe
+
+    # - title: Project Default
+    #   date: Since 2017
+    #   link: https://example.com/default
+    #   #description: not there either
+
+  certifications:
+    # settings:
+    #   useLess: true
+    # details:
+    # - certName: Example Cert
+      # company: Example Certifying Company
+      # date: Date of Completion
+      # badge: https://www.link.to.badge
+      # #description: Lorem Ipsum
+  
+  # misc:
+    # # settings:
+    # #   useLess: true
+    # commandName: newcommand
+    # title: "This Section can have a different command name"
+    # titleColor: teal
+    # content: |
+          # Here the title and the content can have different colors
+          # The content can be multi
+          # 
+          # line
+# 
+          # And spaces       will be respected as well
+          # This section will have the default command: misc
+          # but you can name it something else with the property
+          # commandName: <String>
+          # Give it a shot and try and uncomment the line
+          # commandName: newcommand
+          # now instead of misc you can execute the newcommand for this section
+          # Auto completion will know it too! :D
+# 
+    # contentColor: orange
