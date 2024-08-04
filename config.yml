@@ -48,6 +48,7 @@ params:
     ░░ Terminal-site 
 
     |> Type 'help' to see all of available commands
+    |> Type 'projects' to see all of my current projects
     |> Type 'startx' to see my blog (an old-to-latest posts)
     ╚> or you can just click here: https://glog.pages.dev"
     |> Type 'clear' to clear the terminal screen.
