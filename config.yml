@@ -32,7 +32,7 @@ params:
   # promptColor: grey
   # promptSimbols: ":~$"
   # promptSimbolsColor: grey
-  startxLocation: https://xgilarb.pages.dev
+  startxLocation: https://glog.pages.dev
   # useLess: true
   exitLocation: 'https://google.com'
   source: true
@@ -49,7 +49,7 @@ params:
 
     |> Type 'help' to see all of available commands
     |> Type 'startx' to see my blog (an old-to-latest posts)
-    ╚> or you can just click here: https://xgilarb.pages.dev"
+    ╚> or you can just click here: https://glog.pages.dev"
     |> Type 'clear' to clear the terminal screen.
     |> Type 'exit' to exit the terminal and back to google.com
 
