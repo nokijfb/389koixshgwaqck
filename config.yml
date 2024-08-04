@@ -60,7 +60,7 @@ params:
     #   useLess: true
     details:
       name: "Gillar Ajie Prasatya"
-      profession: "Self-Employed WebDev"
+      profession: "Backend Developer"
       location: "West Bandung, West Java, Indonesia"
       email: "xgilarb@gmail.com"
       homelink: "https://gillar.pages.dev"
@@ -83,12 +83,12 @@ params:
     # settings:
     #   useLess: true
     details:
-    - jobTitle: "\nSelf-Employed WebDev"
+    - jobTitle: "\nSelf-Employed | BE Specialist"
       color: Cyan
       company: 'Kuresains' 
       location: WFH
       date: 2023 - Present
-      description: "Build & Developing Website / Webapps\n"
+      description: "Build & Developing Website / WebApps\n"
 
     - jobTitle: "\nGalaxy Consultant"
       color: blue
