@@ -29,7 +29,7 @@ params:
       text: ": "
       color: 'orange'
 
-  # promptColor: grey
+  promptColor: 'green'
   # promptSimbols: ":~$"
   # promptSimbolsColor: grey
   startxLocation: 'https://glog.pages.dev/me'
