@@ -29,9 +29,9 @@ params:
       text: ": "
       color: 'orange'
 
-  promptColor: green
-  promptSimbols: ":~$"
-  promptSimbolsColor: green
+  # promptColor: green
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: green
   startxLocation: 'https://glog.pages.dev/me'
   # useLess: true
   exitLocation: 'https://google.com'
