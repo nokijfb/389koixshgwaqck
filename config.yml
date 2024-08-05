@@ -64,8 +64,8 @@ params:
       location: "West Bandung, West Java, Indonesia"
       email: "xgilarb@gmail.com"
       homelink: "https://gillar.pages.dev"
-      cv: "https://rb.gy/xrn912"
-      # description: Website and portfolio of Gillar Ajie Prasatya using terminal alike theme.
+      cv: "https://rb.gy/xrn912\n"
+      description: "I mainly use Go and JavaScript for web development,\nand Godot Engine for game development.\n"
 
   social:
     # settings:

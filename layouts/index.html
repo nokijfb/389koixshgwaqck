@@ -5,17 +5,17 @@ jQuery(document).ready(function($) {
 
     var commands = {
         help: "shows help",
-        less: "show in a vim output method \n            (It looks just like Vim, but it's not the real one.)\n            just press 'q' after END to close it, don't use ':q!' or even \n            ':wq' to close it. it's not a real vim.",
-        whois: "list of my short bio",
-        social: "list social media",
-        work: "list of my work-experiences",
-        education: "list of my educations",
-        skills: "list of my IT core skills",
-        softskills: "list of my soft skills",
-        languages: "list of spoken languages",
-        projects: "list of my projects",
+        less: "displays in a vim output method \n            (It looks just like Vim, but it's not the real one.)\n            just press 'q' after END to close it, don't use ':q!' or even \n            ':wq' to close it. it's not a real vim.",
+        whois: "shows profile information",
+        social: "shows social media",
+        work: "shows work-experiences",
+        education: "shows education",
+        skills: "shows IT core skills",
+        softskills: "shows soft skills",
+        languages: "shows spoken languages",
+        projects: "shows project list",
         {{ if .Site.Params.certifications }} 
-            certifications: "list certifications",
+            certifications: "shows certifications",
         {{ end }}
         {{ if .Site.Params.startxLocation }}
             startx: "starts graphical environment",
@@ -30,9 +30,9 @@ jQuery(document).ready(function($) {
             version: "Current version (just a gimmick)",
         {{ end }}
         {{ if .Site.Params.exitLocation }}
-            exit: "exit the terminal and goto google.com",
+            exit: "exits the terminal and goes to google.com",
         {{ end }}
-        all: "Show all of my details",
+        all: "shows all information",
     };
 
     function progressBar(number) {
