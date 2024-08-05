@@ -113,7 +113,7 @@ params:
 
     - courseName: "\nInformal Education at Dicoding"
       color: lightblue
-      date: 2024 (Onprogress)
+      date: 2024 (Inprogress)
       description: "Backend Development course\n"
 
     - courseName: "\nFormal Education at SMK Negeri 12 Bandung"
