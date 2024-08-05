@@ -45,11 +45,11 @@ params:
 
   
     ░░ Welcome to Gillar Ajie Prasatya
-    ░░ Backend Devs| Bio-site-Terminal 
+    ░░ Backend Devs| Profile-site-Terminal 
 
     |> Type 'help' to see all of available commands
     |> Type 'projects' to see my current projects list
-    |> Type 'startx' to see my GUI bio & blog
+    |> Type 'startx' to see my GUI Profile & Blog
     ╚> or you can just click here: https://glog.pages.dev/me
     |> Type 'clear' to clear the terminal screen.
     |> Type 'exit' to exit the terminal and back to google.com
