@@ -1,14 +1,14 @@
-baseURL: http:""
+baseURL: 'https://gillar.pages.dev'
 languageCode: en-us
 title: xgilarb | Bash
 theme: terminalcv
 
 params:
   version: '2.0.0'
-  description: "My terminal site"
+  description: 'My terminal site'
   prompt:
     core:
-      text: "visitor"
+      text: 'visitor'
       color: 'cyan'
       before: '['
       beforeColor: 'red'
@@ -32,7 +32,7 @@ params:
   # promptColor: grey
   # promptSimbols: ":~$"
   # promptSimbolsColor: grey
-  startxLocation: https://glog.pages.dev/me
+  startxLocation: 'https://glog.pages.dev/me'
   # useLess: true
   exitLocation: 'https://google.com'
   source: true
